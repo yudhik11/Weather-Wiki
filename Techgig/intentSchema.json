@@ -1,0 +1,76 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "weather wiki",
+            "intents": [
+                {
+                    "name": "Weatherintent",
+                    "slots": [
+                        {
+                            "name": "queryword",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "weather {Chicago|queryword}",
+                        "weather in {Chicago|queryword}",
+                        "what is the weather in {Chicago|queryword}",
+                        "what is the pressure in {Bangalore|queryword}",
+                        "what is the temperature in {Bangalore|queryword}",
+                        "what is the minimum temperature in {Bangalore|queryword}",
+                        "what is the maximum temperature in {Bangalore|queryword}",
+                        "what is the min temperature in {Bangalore|queryword}",
+                        "what is the max temperature in {Bangalore|queryword}",
+                        "give me the weather in {Chicago|queryword}",
+                        "give me the pressure in {Bangalore|queryword}",
+                        "give me the temperature in {Bangalore|queryword}",
+                        "give me the minimum temperature in {Bangalore|queryword}",
+                        "give me the maximum temperature in {Bangalore|queryword}",
+                        "give me the min temperature in {Bangalore|queryword}",
+                        "give me the max temperature in {Bangalore|queryword}",
+                        "tell weather in {Chicago|queryword}",
+                        "tell pressure in {Bangalore|queryword}",
+                        "tell temperature in {Bangalore|queryword}",
+                        "tell minimum temperature in {Bangalore|queryword}",
+                        "tell maximum temperature in {Bangalore|queryword}",
+                        "tell min temperature in {Bangalore|queryword}",
+                        "tell max temperature in {Bangalore|queryword}",
+                        "tell me the weather in {Chicago|queryword}",
+                        "tell me the pressure in {Bangalore|queryword}",
+                        "tell me the temperature in {Bangalore|queryword}",
+                        "tell me the minimum temperature in {Bangalore|queryword}",
+                        "tell me the maximum temperature in {Bangalore|queryword}",
+                        "tell me the min temperature in {Bangalore|queryword}",
+                        "tell me the max temperature in {Bangalore|queryword}",
+                        "pressure in {Bangalore|queryword}",
+                        "temperature in {Bangalore|queryword}",
+                        "minimum temperature in {Bangalore|queryword}",
+                        "maximum temperature in {Bangalore|queryword}",
+                        "min temperature in {Bangalore|queryword}",
+                        "max temperature in {Bangalore|queryword}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help",
+                        "help me"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
